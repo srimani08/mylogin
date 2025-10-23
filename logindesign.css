@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #4a484b;
+}
+div.loginpage {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #c069d69a;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+
+}
+.loginpage button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    cursor:pointer;
+    font-size: 16px;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.loginpage label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
